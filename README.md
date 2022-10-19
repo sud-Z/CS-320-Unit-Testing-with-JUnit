@@ -1,7 +1,8 @@
-# CS-320-Unit-Testing-with-JUnit /n
+# CS-320-Unit-Testing-with-JUnit
 
-# How can I ensure that my code, program, or software is functional and secure? /n
-
-# How do I interpret user needs and incorporate them into a program? /n
-
-# How do I approach designing software? /n
+# How can I ensure that my code, program, or software is functional and secure?
+One can ensure that their code is function and secure through dedicated and diverse testing. These tests can include static testing, unit testing, integration testing, system testing, and acceptance testing. The code in this repo is a good example of unit testing. When it comes to secure code, tools like dependency checks can make a big difference in how quickly you respond to newly discovered vulnerabilities. It also helps to familiarize yourself with the programming tools that you are using long before you even write a single line. Documentation will often include examples of secure coding practices that you can use to protect user or personal data.
+# How do I interpret user needs and incorporate them into a program?
+One can, and should, interpret user needs as requirements for your program. You can expand upon these needs and turn them into a list of actionable goals for your program. Once you create a program to meet these needs, you should also design tests around ensuring these needs are met. These are all things that happen at once on a larger team, but it is important to keep this process in mind, even for schoolwork or personal projects. 
+# How do I approach designing software?
+I approach designing software in a very systematic way. When it comes to object-oriented systems, I often develop the most important objects first and go down the list from there. After all of the objects needed are developed. I create unit tests for these objects to ensure that they are all working as intended. After this, I develop the service that links these objects together. Again, for this service, I will create unit tests to ensure all functions as expected. After unit testing, I will manually test the functionality of the software until I am 100% sure that it works as intended. Previous to this course, I would put these unit tests in a main method in the class itself and comment it out when I was not testing. However, now that I have worked with JUnit, I can see myself confidently using automated testing tools from now on. Keeping the tests separate from the codebase itself makes for easier to read code and more flexibility in testing.
